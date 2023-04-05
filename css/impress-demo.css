@@ -222,7 +222,7 @@ h2{
 #level p{
     margin-top: -40px;
 }
-#level span, #asembely span, #high span, #history span{
+#level span, #asembely span, #high span, #history span, #c span, #use span, #codesteps span{
     font-weight: 700;
 }
 img{
@@ -232,4 +232,11 @@ img{
 #history img{
     width: 50%;
     margin-top: 20px;
+}
+#cpp img{
+    margin-top: 20px;
+}
+#cpp .image-base p{
+    font-size: 20px;
+    margin-top: 10px;
 }
