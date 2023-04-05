@@ -222,7 +222,8 @@ h2{
 #level p{
     margin-top: -40px;
 }
-#level span, #asembely span, #high span, #history span, #c span, #use span, #codesteps span, #compiler span{
+#level span, #asembely span, #high span, #history span, #c span, #use span, #codesteps span, #compiler span
+,#proto span, #ide span{
     font-weight: 700;
 }
 img{
@@ -239,4 +240,10 @@ img{
 #cpp .image-base p{
     font-size: 20px;
     margin-top: 10px;
+}
+a{
+    color: green;
+}
+.color-b{
+    color: rgb(232, 232, 195);
 }
