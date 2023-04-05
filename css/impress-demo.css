@@ -222,7 +222,7 @@ h2{
 #level p{
     margin-top: -40px;
 }
-#level span, #asembely span, #high span, #history span, #c span, #use span, #codesteps span{
+#level span, #asembely span, #high span, #history span, #c span, #use span, #codesteps span, #compiler span{
     font-weight: 700;
 }
 img{

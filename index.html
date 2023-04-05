@@ -186,7 +186,9 @@
     -->
     <div id="chapter" class="step slide flex center" data-x="-1000" data-y="-1500">
         <h1>چپتر صفر</h1><br>
-        <h1> آشنایی با ++c  </h1>
+        <h1 style="margin-top: -60px;"> "آشنایی با ++c"  </h1>
+        <h2 style="margin-top: 50px; color: #7741bd;">محمد اسماعیلی</h2>
+        <h2 style="color: #7741bd;">هلیا نجفی</h2>
     </div>
 
     <div id="questions" class="step slide flex" data-x="0" data-y="-1500">
@@ -197,18 +199,20 @@
     </div>
     
     <div id="def-programming" class="step slide flex" data-x="0" data-y="-1500" data-z="5000" data-rotate="40">
-        <h2>تعریف برنامه نویسی از دید ditel & ditel:</h2><br>
+        <h2>تعریف برنامه نویسی از دید "ditel & ditel":</h2><br>
         <p>پردازش در کامپیوتر ها، با یک سری دستورات و برنامه ها انجام می‌شود که توسط برنامه نویسان نوشته شده است.</p><br>
         <p>*دستورات به صورت عمیق و ثابت هستند.</p>
-        <div class="image-base substep">
+        <div class="image-base ">
             <img src="images/ditel.jpg" alt="">
-            یکی از کتاب های مرجع برای مطالعه ++C
+            <p style="margin-top: 10px; font-size: large; color: wheat;">
+                یکی از کتاب های مرجع برای مطالعه ++C
+            </p>
         </div>
     </div>
     
     <div id="level" class="step slide flex" data-x="0" data-y="1000">
         <h2>سطوح زبان‌های برنامه‌نویسی:</h2><br>
-        <div class="substep">
+        <div class="">
             <p style="display: block;"><span>زبان ماشین:</span> معمولاً رشته ای از اعداد است.</p><br>
             <p style="margin-top: -50px;">هنگام طراحی سخت‌افزار طراحی می‌شود. بسیار سخت فهم است و روند توسعه بسیار زمان‌بر است.</p><br>
             <p><span>نمونه کد:</span></p><br>
@@ -226,7 +230,7 @@
 
     <div id="asembely" class="step slide flex" data-x="-1500" data-y="-1500" data-rotate-x="100" data-rotate-y="30">
         <p style="display: block;"><span>زبان اسمبلی:</span> نزدیک‌تر به زبان انسان</p><br>
-        <div class="substep">
+        <div class="">
             <p style="margin-top: -50px;">همچنان سخت فهم و پیچیده و بسیار محدود.</p>
             <p style="margin-top: 30px;"><span>نمونه کد:</span></p><br>
             <p style="float: left; direction: ltr;">
@@ -264,7 +268,7 @@
     <div id="c" class="step slide flex" data-x="-1000" data-y="-1500">
         <p><span>زبان C:</span></p>
         <p>این زبان برنامه نویسی توسط دنیس ریچی در سال 1972 و در آزمایشگاه بِل نوشته شد. این زبان از دو زبان B و BCPL منشعب شده و مهم ترین برتری زبان C نسبت به این دو زبان داشتن ویژگی دیتاتایپ بود. بعد از انتشار این زبان، افراد زیادی مشغول توسعه‌ی unix با این زبان شدند. unix پایه ی سیستم عامل های لینوکس و مک است.</p><br>
-        <p class="substep">*زبان های دیگری همچون پایتون و روبی و ... نیز در ساخت unix استفاده شدند.</p>
+        <p class="">*زبان های دیگری همچون پایتون و روبی و ... نیز در ساخت unix استفاده شدند.</p>
     </div>
 
     <div id="cpp" class="step slide flex" data-x="-2000" data-y="-1500">
@@ -282,7 +286,7 @@
         <p style="display: block;"><span>اپ دسکتاپ:</span> مثل فتوشاپ و ایلاسترایتور</p>
         <p style="display: block;"><span>مرورگر:</span> مثل کروم و فایرفاکس</p>
         <p style="display: block;"><span>انیمیشن سازی</span></p>
-        <p style="display: block;"><span>برنامه‌ی بعضی سخت‌افزار ها</span> مثل دستگاه MRI</p>
+        <p style="display: block;"><span>برنامه‌ی بعضی سخت‌افزار ها:</span> مثل دستگاه MRI</p>
         <h2 style="margin-top: 30px;">بازار کار:</h2>
         <p style="display: block;"><span>داخل کشور:</span> بیش از 400 موقعیت شغلی فعال در جابینجا!</p>
         <p style="display: block;"><span>خارج کشور(انگلیس):</span> بیش از 1500 موقعیت شغلی فعال در gov.uk</p>
@@ -298,6 +302,14 @@
         
     </div>
 
+    <div id="compiler" class="step slide flex" data-x="-2000" data-y="2000" data-z="-9000" data-rotate="45">
+        <h2>تعاریف و مفاهیم مورد نیاز:</h2>
+        <p style="display: block; margin-top: 20px;"><span>کامپایلر:</span> مترجم کُد برخی زبان‌های سطح بالا به زبان ماشین</p>
+        <p style="display: block; margin-top: 20px;"><span>لینکر:</span> دریافت فایل‌های تولید شده توسط کامپایلر و تولید فایل قابل اجرا با ترکیب آنها.</p>
+        <p style="display: block; margin-top: 20px;"><span>لایبرری:</span> مجموعه کدهایی که از قبل نوشته شده و برای سهولت کار به برنامه خود فراخوانی میکنیم.</p>
+
+
+    </div>
     
 </div>
 
