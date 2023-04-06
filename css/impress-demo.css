@@ -247,3 +247,15 @@ a{
 .color-b{
     color: rgb(232, 232, 195);
 }
+#syntax{
+    display: flex;
+}
+.up-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#syntax img{
+    width: 95%;
+    display: flex;
+}
